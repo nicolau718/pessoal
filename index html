@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> pagina pessoal nicolas</title>
+  </head>
+  <body>
+     <header>
+          <h1> nicolas gomes</h1>
+          <nav>
+             <ul>
+                 <li><a href="#sobre">sobre mim</a></li>
+                  <li><a href="projetos">projetos</a></li>
+                  <li><a href="#contato">contato</a></li>
+                  </ul>
+          </nav>
+     </header>
 
+     <section id="sobre">
+      <h2>sobre mim</h2>
+      <p> gosto de jogar bola, gosto de viajar, assisto muita luta e futebol e sou fiel </p>
+
+
+
+
+
+        </section>
+
+        <section id="projetos">
+          <h2> projetos</h2>
+          <ul>
+            <li>projetos 1: <a href="#">descriçaode projetos 1</a></li>
+            <li>projetos 2: <a href="#">descrição do projeto 2</a></li>
+          </ul>
+        </section>
+
+       <section id="contato">
+        <h2>contato</h2>
+        <p>entre em contato comigo via <a href="mailto:nicolas_amaral.estudante.sesisenai.org.br">nicolas_amaral.estudante.sesisenai.org.br</a>.</p>
+       </section>
+       
+       <footer>
+            <p>&copy; @2024  -  nicolas gomes</p>
+       </footer>
+  </body>
+</html>
