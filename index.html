@@ -59,6 +59,7 @@
 
   section#sobre,
   section#projetos,
+  section#cadastro,
   section#contato {
     background-color: #fff;
     padding: 20px;
@@ -74,16 +75,56 @@
 
 
   }
+  h3 {
+    text-align: center;
+  }
+ 
+  form{
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  label,
+  input{
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"]{
+    width: 95%;
+    padding:10px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+  }
+  input[type="submit"]{
+width: 100%;
+    padding:10px;
+    border: none;
+    border-radius:5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+
+
+  }
+  input[type="submit"]: hover {
+    background-color: #0056b3;
+  }
+
 </style>
 
 
 <body>
   <header>
-    <h1> nicolas gomes</h1>
+    <h1> nicolas gomes do amaral </h1>
     <nav>
       <ul>
         <li><a href="#sobre">sobre mim</a></li>
         <li><a href="projetos">projetos</a></li>
+         <li><a href="cadastro">Cadastro</a></li>
         <li><a href="#contato">contato</a></li>
       </ul>
     </nav>
@@ -105,9 +146,29 @@
     <ul>
       <li>projeto 1: <a href="#">descrição de projeto 1</a></li>
       <li>projeto 2: <a href="#">descrição do projeto 2</a></li>
+      <li>projeto 3: <a href="#">descrição de projeto 3</a></li>
     </ul>
   </section>
+<section id="cadastro">
+  <h3> Cadastro de pessoas </h3>
+<form>
 
+
+<label>Nome </label>
+<input type="text" id="nome" name="nome" required>
+<label>E-mail </label>
+<input type="email" id="email" name="email" required>
+<label> Telefone </label>
+<input type="tel" id="telefone" name="telefone" required>
+<input type="submit"value="Cadastrar">
+
+
+</form>
+</body>
+</html>
+           
+
+</section>
 
 
 
@@ -125,4 +186,5 @@
 
 
 </html>
+
 
