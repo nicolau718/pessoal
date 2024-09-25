@@ -1,45 +1,128 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> pagina pessoal nicolas</title>
-  </head>
-  <body>
-     <header>
-          <h1> nicolas gomes</h1>
-          <nav>
-             <ul>
-                 <li><a href="#sobre">sobre mim</a></li>
-                  <li><a href="projetos">projetos</a></li>
-                  <li><a href="#contato">contato</a></li>
-                  </ul>
-          </nav>
-     </header>
-
-     <section id="sobre">
-      <h2>sobre mim</h2>
-      <p> gosto de jogar bola, gosto de viajar, assisto muita luta e futebol e sou fiel </p>
 
 
+<head>
+  <title> pagina pessoal nicolas</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    font-family: arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+
+  header h1 {
+    margin-botton: 10px;
+  }
+
+
+  nav ul {
+    list-style: none;
+  }
+
+
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  section {
+    margin: 20px;
+  }
+
+
+  section#sobre,
+  section#projetos,
+  section#contato {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba (0, 0, 0.1);
+
+
+  }
+
+
+  footer {
+    text-aling: center;
+
+
+  }
+</style>
+
+
+<body>
+  <header>
+    <h1> nicolas gomes</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">sobre mim</a></li>
+        <li><a href="projetos">projetos</a></li>
+        <li><a href="#contato">contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
 
 
-        </section>
 
-        <section id="projetos">
-          <h2> projetos</h2>
-          <ul>
-            <li>projetos 1: <a href="#">descriçaode projetos 1</a></li>
-            <li>projetos 2: <a href="#">descrição do projeto 2</a></li>
-          </ul>
-        </section>
+  <section id="sobre">
+    <h2>sobre mim</h2>
+    <p> gosto de jogar bola, viajar, assisto muita luta e futebol e sou fiel </p>
+  </section>
 
-       <section id="contato">
-        <h2>contato</h2>
-        <p>entre em contato comigo via <a href="mailto:nicolas_amaral.estudante.sesisenai.org.br">nicolas_amaral.estudante.sesisenai.org.br</a>.</p>
-       </section>
-       
-       <footer>
-            <p>&copy; @2024  -  nicolas gomes</p>
-       </footer>
-  </body>
+
+
+
+  <section id="projetos">
+    <h2> projetos</h2>
+    <ul>
+      <li>projeto 1: <a href="#">descrição de projeto 1</a></li>
+      <li>projeto 2: <a href="#">descrição do projeto 2</a></li>
+    </ul>
+  </section>
+
+
+
+
+  <section id="contato">
+    <h2>contato</h2>
+    <p>entre em contato comigo via <a
+        href="mailto:nicolas_amaral.estudante.sesisenai.org.br">nicolas_amaral.estudante.sesisenai.org.br</a>.</p>
+  </section>
+
+
+  <footer>
+    <p>&copy; @2024 - nicolas gomes</p>
+  </footer>
+</body>
+
+
 </html>
+
